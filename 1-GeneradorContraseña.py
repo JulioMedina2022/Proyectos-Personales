@@ -7,7 +7,6 @@ def contraseña(longitud):
     return contraseña
 
 # Programa
-
 print("----------------------------------------------------------")
 print("\n Bienvenido al generador de contraseñas de Julio.")
 print("\n-----------------------------------------------------------")
@@ -22,7 +21,3 @@ while True:
 
     except ValueError:
         print("Ingrese un número entero.")
-
-    
-
-
