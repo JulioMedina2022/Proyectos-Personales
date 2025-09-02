@@ -8,18 +8,21 @@ def contraseña(longitud):
 
 # Programa
 
-
 print("----------------------------------------------------------")
 print("\n Bienvenido al generador de contraseñas de Julio.")
 print("\n-----------------------------------------------------------")
+
+while True:    
+    try:
+        Longitud = int(input("\nIngrese la longitud de la contraseña: "))
+        password = contraseña(Longitud)
+        print(f"Contraseña generada: {password}")
+        print("                                    ")
+        break
+
+    except ValueError:
+        print("Ingrese un número entero.")
+
     
-try:
-    Longitud = int(input("Ingrese la longitud de la contraseña: "))
-    password = contraseña(Longitud)
-    print(f"Su contraseña es: {password}")
-except ValueError:
-    print("Ingrese un número entero.")
 
 
-    
-    
