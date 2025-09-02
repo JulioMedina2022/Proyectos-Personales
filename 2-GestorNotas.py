@@ -24,9 +24,7 @@ def ReemplazarContenido(NombreArchivo):
         archivo.write(f"{mensaje}.\n")
         print("Mensaje reemplazado.")
 
-
-
-
+# Programa
 while True:
     print("---------------------------------------------------")
     print("\n Bienvenido al gestor de notas personalizado.")
@@ -92,6 +90,7 @@ while True:
 
  
         
+
 
 
 
